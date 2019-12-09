@@ -1,4 +1,4 @@
-# **ML Classifier Applications on Word2VecData**
+# **ML Classifiers Application on Word2VecData**
 
 ### Introduction 
 
