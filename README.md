@@ -1,4 +1,4 @@
-# **Predicting Moview Reviews on Word2Vec Data**
+# **Predicting Movie Reviews on Word2Vec Data**
 
 ### Introduction 
 
