@@ -1,4 +1,4 @@
-# **ML Classifiers Application on Word2VecData**
+# **Predicting Moview Reviews on Word2Vec Data**
 
 ### Introduction 
 
@@ -9,7 +9,7 @@ With the use of the function ” readTrainTestData(trainFile, testFile)”, we w
 In the case of cross validation, we combined the *vec* and *lab* datasets to form X_val and y_val.
 
 ### *Data* 
-As explained in the section above, Preprocessing Data, we started with two text files consisting of training and testing data. The training file has 400000 different vectors consisting 100 decimal values plus one label value at the beginning. The testing file is much smaller with just 100000 different vectors with the same amount of decimal and labeled values in each. Once the preprocessing is done we end up with a numerical list of labels and arrays for each file. Hence, ending up with parameters train_vec, train_lab, test_vec, and test_lab, where each vec is (100,1) and lab  is (1,1) in dimension.  
+As explained in the section above, Preprocessing Data, we started with two text files consisting of training and testing data. The training file has 40000 different vectors consisting 100 decimal values plus one label value at the beginning. The testing file is much smaller with just 10000 different vectors with the same amount of decimal and labeled values in each. Once the preprocessing is done we end up with a numerical list of labels and arrays for each file. Hence, ending up with parameters train_vec, train_lab, test_vec, and test_lab, where each vec is (100,1) and lab  is (1,1) in dimension.  
 #### *What do all these numbers inside the vectors mean?*
 All this data comes from a model called word2vec. To summarize, the model comes from a twolayer neural network used specifically for text. As we try to get an accurate review prediction, we must know why a specific review is either positive or negative. For this we need context, sentiment, key words…so this is where the word2vec is able to take several words, provide them with a numerical value based on the word’s context and then group vectors that have similar words. If given enough data, this will enable the model to predict the meaning of future words in a sentence because it already has vectors telling it its meaning and usage.
 
